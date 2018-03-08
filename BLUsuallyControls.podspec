@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-把控件简单封装起来，使用时更加方便一点，详情请看demo
+把控件UILabel， UIButton，UIImageView等简单封装起来，使用时更加方便一点，详情请看demo
                    DESC
 
   s.homepage     = "https://github.com/Balopy/BLUsuallyControls"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TestDemo", "TestDemo/BLGeneralControl/*.{h,m}"
+  s.source_files  = "TestDemo/TestDemo/BLGeneralControl/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
