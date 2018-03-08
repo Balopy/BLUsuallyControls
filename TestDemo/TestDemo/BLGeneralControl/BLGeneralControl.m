@@ -140,7 +140,7 @@
     textField.rightViewMode=UITextFieldViewModeWhileEditing;
     
     textField.font= [UIFont systemFontOfSize:font];
-    textField.textColor = [UIColor colorWithHexString:@"#BBBBBB"];
+    textField.textColor = [UIColor redColor];
     
     [view addSubview:textField];
     return textField ;
